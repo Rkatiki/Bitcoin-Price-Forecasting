@@ -9,7 +9,7 @@ Following models were used
 3. ARIMA: Auto Regressive Integrated Moving Average is actually a class of models that explains a given time series based on its own past values, that is, its own lags and the lagged forecast errors, so that equation can be used to forecast future values. This acronym is descriptive, capturing the key aspects of the model itself. Briefly, they are:
   * AR: Autoregression. A model that uses the dependent relationship between an observation and some number of lagged observations.
   * I: Integrated. The use of differencing of raw observations (e.g. subtracting an observation from an observation at the previous time step) in order to make the time series stationary.
-  * MA: Moving Average. A model that uses the dependency between an observation and a residual error from a moving average model applied to lagged observations.
+  * MA: Moving Average. A model that uses the dependency between an observation and a residual error from a moving average model applied to lagged observations.<br/><br/>
   We use ARIMA model to analyse our time series first. We know that for it, we need our series to be stationary. So we use the below described techniques to realise if our series is stationary
 
   * Seasonal Trend Decomposition We use seasonal decomposition to visualise the seasonal and trend components of the time series. We aim to get a residual that is free of trends and seasonality.
@@ -22,7 +22,7 @@ Dataset Used:
   https://www.kaggle.com/mczielinski/bitcoin-historical-data?select=bitstampUSD_1-min_data_2012-01-01_to_2021-03-31.csv
 
 Files present:
-  
+  <br/>
   Data Analysis: DATA_EDA.ipynb
   Basic ML/DL models: LSTM_and_XgBoost.ipynb
   ARIMA model: ARIMA.ipynb
