@@ -21,6 +21,7 @@ Forecasting the price of cryptocurrency using ML/DL algorithms
   2. Regular time shift applied to Log transformed prices
   3. Box_Cox power transform
   4. Regular time shift applied on Box Cox Transformed prices
+
 4. **SARIMAX - GARCH:** Seasonal Auto Regressive Integrated Moving Average with Exogenous factors is an extenstion of ARIMA class of models with advantages in seasonality and exogenous factors(variables that affect a model without being affected by it). Generalized AutoRegressive Conditional Heteroskedasticity (GARCH) is a statistical model used in analyzing time-series data where the variance error is believed to be serially autocorrelated. GARCH models assume that the variance of the error term follows an autoregressive moving average process. GARCH assumes that returns have a constant mean but, in real world this won’t completely capture the skewness and leptokurtosis that is present. That’s why ARIMA and GARCH models are so often combined. An ARIMA model estimates the conditional mean, where subsequently a GARCH model estimates the conditional variance present in the residuals of the ARIMA estimation.<br/>
 
 ### Dataset Used:
@@ -28,8 +29,7 @@ Forecasting the price of cryptocurrency using ML/DL algorithms
   https://www.kaggle.com/mczielinski/bitcoin-historical-data?select=bitstampUSD_1-min_data_2012-01-01_to_2021-03-31.csv
 
 ### Files present:
-  <br/>
-  
+  <br/> 
   Data Analysis: DATA_EDA.ipynb<br/>
   Basic ML/DL models: LSTM_and_XgBoost.ipynb<br/>
   ARIMA model: ARIMA.ipynb<br/>
